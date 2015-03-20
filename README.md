@@ -120,3 +120,11 @@ inspiration
 
 The awesome [hint.fm wind map](http://hint.fm/wind/) and [D3.js visualization library](http://d3js.org) provided
 the main inspiration for this project.
+
+
+
+Dev Notes
+---------
+
+Using the following coordinates to roughly grab NorCal from the larger geospatial dataset
+> ogr2ogr -f GeoJSON -clipdst -124.03 35.38 -121.31 39.31 ne_coastline_norcal2.json natural_earth/ne_110m_coastline.shp
